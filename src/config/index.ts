@@ -16,7 +16,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "X", href: "https://x.com/miracle_soo" },
     {
       text: "LinkedIn",
-      href: "https://www.linkedin.com/in/railey-pacheco-938217248s",
+      href: "https://www.linkedin.com/in/railey-pacheco-938217248",
     },
     { text: "Github", href: "https://github.com/Railey29?tab=repositories" },
     { text: "Facebook", href: "https://www.facebook.com/railey.pacheco.2025" },
