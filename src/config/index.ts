@@ -1,23 +1,33 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Railey Pacheco — Mobile & Web Developer",
+  author: "Railey Pacheco",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Freelancer based in Manila City, Philippines. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/Railey.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "X", href: "https://x.com/miracle_soo" },
+    {
+      text: "LinkedIn",
+      href: "https://www.linkedin.com/in/railey-pacheco-938217248s",
+    },
+    { text: "Github", href: "https://github.com/Railey29?tab=repositories" },
+    { text: "Facebook", href: "https://www.facebook.com/railey.pacheco.2025" },
+    {
+      text: "Certificate",
+      href: "https://drive.google.com/file/d/1rnQOz0WF5NVC-gR35-_8-T5eF9Q0vXMs/view?usp=sharing",
+    },
+    {
+      text: "Resume",
+      href: "https://drive.google.com/file/d/1OUuBeV2FCDHZvpkH4OVbeS1fwLYbz7ZU/view?usp=sharing",
+    },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,74 +35,63 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
+    name: "Railey Pacheco",
     specialty: "Mobile & Web Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Developer based in Manila City , Philippines, web and mobile application development and maintenance.",
+    email: "RaileyPacheco099@Gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
-    },
-    {
-      company: "Bankit",
+      company: "Freelancing",
       position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      startDate: "Sept 2025",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Experienced in building cross-platform mobile applications using React Native with the Expo framework, ensuring faster development and deployment. Skilled in creating responsive UI components, integrating APIs, and optimizing performance for both Android and iOS platforms. Familiar with using Expo’s ecosystem for simplified app testing, debugging, and publishing, resulting in efficient and user-friendly mobile solutions.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Freelancing",
+      position: "Web Developer",
+      startDate: "May 2024",
+      endDate: "Present",
+      summary: [
+        "Experienced in developing modern, scalable, and responsive web applications using ReactJS with the NextJS framework for optimized performance and SEO. Skilled in building dynamic front-end interfaces, implementing server-side rendering (SSR), and handling API integrations. Proficient in working with MongoDB as a database solution to design and manage data efficiently, ensuring seamless full-stack development from front-end to back-end.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Expenses Tracker",
+      summary:
+        "This project makes managing finances easier with features to add expenses, view spending history, and add balance, helping users stay organized and in control of their funds.",
+      linkPreview: "https://expenses-tracker-u2u8.vercel.app/login",
+      linkSource: "https://github.com/Railey29/expenses-tracker",
+      image: "/Expenses.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Alphabot",
+      summary:
+        "Alphabot is an educational robot that uses computer vision and games to make preschool learning fun and interactive.",
+      linkPreview:
+        "https://thesis-mk3-0-jvzzqu6vq-railey29s-projects.vercel.app",
+      linkSource: "https://github.com/Railey29/Thesis-mk3.0",
+      image: "/Alphabot.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "PhotoBoot",
+      summary:
+        "Photobooth is an app that captures four webcam shots and merges them into one creative photo layout.",
+      linkPreview: "https://photo-boot-rb6amjk19-railey29s-projects.vercel.app",
+      linkSource: "https://github.com/Railey29/PhotoBoot",
+      image: "/Photoboot.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+     I’m Joseph Railey J. Pacheco, a passionate Freelance Web and Mobile Developer who helps businesses and individuals build modern, responsive, and user-friendly applications. I specialize in creating cross-platform mobile apps using React Native with Expo, ensuring smooth performance on both Android and iOS. For web projects, I develop fast, scalable, and SEO-ready websites with ReactJS and NextJS, and I use MongoDB for secure and efficient data management. I take pride in delivering clean code, modern designs, and reliable solutions tailored to my clients’ needs. With a strong focus on problem-solving and creativity, I aim to turn ideas into digital solutions that help clients grow their online presence. If you’re looking for someone to build or improve your app or website, I’d love to collaborate with you.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/Railey.jpg",
   },
 };
-
-// #5755ff
