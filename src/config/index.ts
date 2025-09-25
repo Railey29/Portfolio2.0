@@ -74,8 +74,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "Alphabot",
       summary:
         "Alphabot is an educational robot that uses computer vision and games to make preschool learning fun and interactive.",
-      linkPreview:
-        "https://thesis-mk3-0-jvzzqu6vq-railey29s-projects.vercel.app",
+      linkPreview: "https://thesis-mk3-0.vercel.app/home",
       linkSource: "https://github.com/Railey29/Thesis-mk3.0",
       image: "/Alphabot.png",
     },
@@ -83,7 +82,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "PhotoBoot",
       summary:
         "Photobooth is an app that captures four webcam shots and merges them into one creative photo layout.",
-      linkPreview: "https://photo-boot-rb6amjk19-railey29s-projects.vercel.app",
+      linkPreview: "https://photo-boot.vercel.app",
       linkSource: "https://github.com/Railey29/PhotoBoot",
       image: "/Photoboot.png",
     },
