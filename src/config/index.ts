@@ -65,7 +65,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Expenses Tracker",
       summary:
-        "This project makes managing finances easier with features to add expenses, view spending history, and add balance, helping users stay organized and in control of their funds.",
+        "A finance app for adding expenses, tracking history, and managing balance to stay organized.",
       linkPreview: "https://expenses-tracker-u2u8.vercel.app/login",
       linkSource: "https://github.com/Railey29/expenses-tracker",
       image: "/Expenses.png",
@@ -73,7 +73,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Alphabot",
       summary:
-        "Alphabot is an educational robot that uses computer vision and games to make preschool learning fun and interactive.",
+        "Alphabot is a robot that uses computer vision and games to make preschool learning fun and interactive.",
       linkPreview: "https://thesis-mk3-0.vercel.app/home",
       linkSource: "https://github.com/Railey29/Thesis-mk3.0",
       image: "/Alphabot.png",
